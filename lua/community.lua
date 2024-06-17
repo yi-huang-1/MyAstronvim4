@@ -12,15 +12,15 @@ return {
   { import = "astrocommunity.motion.flash-nvim" },
   { import = "astrocommunity.colorscheme.catppuccin" },
   -- { import = "astrocommunity.workflow.bad-practices-nvim" },
-  { import = "astrocommunity.workflow.hardtime-nvim" },
+  -- { import = "astrocommunity.workflow.hardtime-nvim" },
   { import = "astrocommunity.git.git-blame-nvim" },
-  {
-    "m4xshen/hardtime.nvim",
-    opts = {
-      disabled_keys = {
-        ["<Up>"] = {},
-        ["<Down>"] = {},
-      },
-    },
-  },
+  -- {
+  --   "m4xshen/hardtime.nvim",
+  --   opts = {
+  --     disabled_keys = {
+  --       ["<Up>"] = {},
+  --       ["<Down>"] = {},
+  --     },
+  --   },
+  -- },
 }
